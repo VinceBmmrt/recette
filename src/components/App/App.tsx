@@ -16,7 +16,7 @@ function App() {
         difficulty={recipeData.difficulty}
         thumbnail={recipeData.thumbnail}
       />
-      <Ingredients />
+      <Ingredients ingredients={recipeData.ingredients} />
       <Instructions />
     </div>
   );
