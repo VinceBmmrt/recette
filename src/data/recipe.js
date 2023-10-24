@@ -1,6 +1,7 @@
 export default {
   title: 'Crêpes raffinées',
-  thumbnail: 'https://images.pexels.com/photos/53483/strawberries-crepe-dessert-sweet-53483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+  thumbnail:
+    'https://images.pexels.com/photos/53483/strawberries-crepe-dessert-sweet-53483.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
   author: 'John Deuf',
   difficulty: 'Facile',
   ingredients: [
@@ -53,7 +54,7 @@ export default {
     'Rajouter les oeufs tout en mélangeant',
     'Rajouter le beurre fondu tout en mélangeant',
     'Rajouter le lait petit à petit tout en mélangeant',
-    'Rajouter le rhum tout en mélangeant. À ce stade si vous fatiguez, n\'hésitez pas à vous en servir un petit verre avant d\'attaquer la suite.',
+    "Rajouter le rhum tout en mélangeant. À ce stade si vous fatiguez, n'hésitez pas à vous en servir un petit verre avant d'attaquer la suite.",
     'Laisser reposer une heure',
     'Faire cuire à la poêle ou à la machine à crêpes.',
     'Dégustez !',
