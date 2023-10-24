@@ -1,5 +1,12 @@
 function Instructions() {
-  return <div>Instructions</div>;
+  return (
+    <ul>
+      <li>Faire chauffer</li>
+      <li>Faire chauffer</li>
+      <li>Faire chauffer</li>
+      <li>Faire chauffer</li>
+    </ul>
+  );
 }
 
 export default Instructions;
