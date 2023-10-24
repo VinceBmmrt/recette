@@ -1,0 +1,20 @@
+.instructions {
+  padding: 1rem;
+  background-color: #f2f2f2;
+  border-radius: 0.5rem 0.5rem 0 0;
+
+  &__item {
+    position: relative;
+    list-style: none;
+    padding-left: 1.5rem;
+
+    &::before {
+      left: 0;
+      position: absolute;
+      content: '';
+      border: 1px solid #f18042;
+      width: 1rem;
+      top: calc(50% - 1px);
+    }
+  }
+}

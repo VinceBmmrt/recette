@@ -1,20 +1,22 @@
+import './Ingredients.scss';
+
 function Ingredients() {
   return (
-    <ul>
-      <li>
-        <span>350 g</span>
+    <ul className="ingredients">
+      <li className="ingredients__item">
+        <span className="ingredients__item-quantity">350 g</span>
         <span>de farine</span>
       </li>
-      <li>
-        <span>350 g</span>
+      <li className="ingredients__item">
+        <span className="ingredients__item-quantity">350 g</span>
         <span>de farine</span>
       </li>
-      <li>
-        <span>350 g</span>
+      <li className="ingredients__item">
+        <span className="ingredients__item-quantity">350 g</span>
         <span>de farine</span>
       </li>
-      <li>
-        <span>350 g</span>
+      <li className="ingredients__item">
+        <span className="ingredients__item-quantity">350 g</span>
         <span>de farine</span>
       </li>
     </ul>

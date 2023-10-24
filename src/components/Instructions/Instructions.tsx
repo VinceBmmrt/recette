@@ -1,10 +1,12 @@
+import './Instructions.scss';
+
 function Instructions() {
   return (
-    <ul>
-      <li>Faire chauffer</li>
-      <li>Faire chauffer</li>
-      <li>Faire chauffer</li>
-      <li>Faire chauffer</li>
+    <ul className="instructions">
+      <li className="instructions__item">Faire chauffer</li>
+      <li className="instructions__item">Faire chauffer</li>
+      <li className="instructions__item">Faire chauffer</li>
+      <li className="instructions__item">Faire chauffer</li>
     </ul>
   );
 }
